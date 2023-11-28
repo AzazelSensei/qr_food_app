@@ -1,0 +1,36 @@
+name: food_app
+description: A new Flutter project.
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.1.2 <4.0.0'
+
+dependencies:
+  country_flags: ^2.2.0
+  flutter:
+    sdk: flutter
+  page_transition: ^2.1.0
+  qr_code_scanner: ^1.0.1
+  simple_animations: ^5.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+   - assets/images/starter-image.jpg
+   - assets/images/one.jpg
+   - assets/images/two.jpg
+   - assets/images/three.jpg
+   - assets/images/catamaran.png
+
+  fonts:
+   - family: Roboto
+     fonts:
+       - asset: assets/fonts/Roboto-Regular.ttf
+       - asset: assets/fonts/Roboto-Bold.ttf
+       - asset: assets/fonts/Roboto-Light.ttf
